@@ -1,0 +1,545 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 100%;
+}
+
+/*Navbar styles */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 20px;
+  height: 40px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  color: black;
+
+}
+
+nav.dark {
+  background-color: #21222A;
+  color: #FFD700;
+}
+
+nav.dark .nav--logo_text:hover{
+  color:white
+}
+
+.nav--logo_icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.nav--logo_text {
+  
+  margin-right: auto;
+  
+}
+
+.nav--logo_text:hover {
+  color: #FFD700;
+}
+
+.nav--title {
+  color: #DEEBF8;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+nav.dark .toggler--slider {
+  border-color: white;
+  background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+nav.dark .toggler--slider--circle {
+  background-color: black;
+}
+
+.toggler--light {
+  color: #2B283A;
+}
+
+nav.dark .toggler--light {
+  color: #918E9B;
+}
+
+.toggler--dark {
+  color: #D5D4D8;
+}
+
+nav.dark .toggler-dark {
+  color: #FFFFFF;
+}
+
+nav.dark .toggler--slider {
+  justify-content: flex-end;
+}
+
+
+section{
+  margin: 0;
+}
+section.dark{
+  padding: 0px;
+  height: 60%;
+  background-color: #21222A;
+  color: white;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+section.dark i{
+  color: #FFD700;
+}
+section.dark .hero{
+  display: flex;
+  /*background-color:#263238; */
+ /*  background-color:#21222A; background-blend-mode: color-burn;*/
+  background-color:#21222A; 
+  background-image: url('images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode: color-burn;
+  width: 100%;
+  height: 38%;
+  text-align: left;
+  float: left;
+  padding: 20px;
+  z-index: 1;
+  color: white;
+}
+
+.hero{
+  width: 100%;
+  height: 38%;
+  text-align: left;
+  float: left;
+  padding: 20px;
+  z-index: 1;
+  color: black;
+  background-color: #f1eff5;
+}
+
+.hero .rotate{
+background-color: black;
+padding: 0px;
+align-items: center;
+width: 20%;
+margin-left: 40%;
+padding-bottom: 10px;
+}
+
+.rotate span {
+  font-size: 12px;
+  color: #FFD700;
+  display: inline-flex;
+  animation: rotate 5s infinite;
+  letter-spacing: 5px;
+  margin-top: 0;
+}
+
+
+.name{
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+@keyframes rotate {
+  0%,
+  75% {
+      transform: rotateY(360deg);
+  }
+}
+.nine span:nth-of-type(1) {
+  animation-delay: 0.2s;
+}
+.nine span:nth-of-type(2) {
+  animation-delay: 0.4s;
+}
+.nine span:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+.nine span:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+.nine span:nth-of-type(5) {
+  animation-delay: 1s;
+}
+.nine span:nth-of-type(6) {
+  animation-delay: 1.2s;
+}
+
+.home-text{
+  align-items: center;
+  margin-left: 5%;
+  min-width: 95%;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+.pro-img{
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px #38383a;
+  margin-top: 5%;
+  color: black; 
+}
+
+
+
+.profile-contacts{
+  width: 100%;
+  
+}
+
+.profile-contacts p{
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  
+}
+
+.hero-photo{
+  width: 100%;
+  height: 100%;
+ 
+  transition: 1s ease;
+
+}
+
+.hero-photo:hover{
+
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 1s ease;
+}
+
+frame{
+  background: transparent;
+  float: left;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+frame.dark{
+  color: white;
+}
+.aboutme{
+  text-align: justify;
+  width: 60%;
+  padding:20% 15px 0 15px;
+  margin-left: 30%;
+  margin-bottom: 0;
+  padding-top: 20%;
+}
+
+.aboutme h4, .myproject h4{
+  background-color: rgb(20, 20, 20);
+  width: 110px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-color: #FFD700;
+  text-align: center;
+  color: white;
+}
+
+.myproject{
+  padding-top: 20px;
+  margin-bottom: 0;
+  margin-left: 31%;
+}
+
+app{
+  flex: 0 0 auto;
+  display: flex;
+  padding-left: 30%;
+  max-width: 100%;
+  flex-basis: 33.333333%;
+  flex-wrap: wrap;
+  color: black;
+  padding-top: 0;
+}
+
+app.dark{
+  background-color:#21222A;
+  padding-top: 0;
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+app.dark .card-stats{
+  color: white;
+}
+
+app.dark p{
+  color: white;
+}
+
+
+main.dark{
+  background-color: #21222A;
+
+  margin: 0;
+  padding-bottom: 20%;
+}
+
+main{
+  margin: 0;
+  padding-bottom: 20%;
+
+}
+
+
+.card {
+  background: transparent;
+  padding: 2px;
+  width: 200px;
+  height: 300px;
+  font-size: 14px;
+  position: relative;
+  margin: 15px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.card a{
+  text-decoration: none;
+  color: black;
+}
+
+.card-image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 100%;
+  border-radius: 9px;
+  height: 80%;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .card-image {
+  opacity: 0.5;
+}
+.card:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #01130c;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+
+.card-stats{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.card  p{
+  padding-left: 10px;
+}
+
+.card-badge{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #FFD700;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
+  
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .section{
+    padding-left: 0;
+    width: 100%;
+  }
+  
+  .hero{
+    width: 100%;
+  }
+  
+    .pro-img{
+      width: 28%;
+      margin-top: 10%;
+      padding: 0;
+    }
+    frame{
+      background: transparent;
+      float: left;
+      width: 100%;
+      padding: 10px 10px 10px 0px;
+      font-size: 10px;
+      text-align: left;
+    }
+  
+    .aboutme{
+      padding-left: 40px;
+      padding-top: 10%;
+    }
+
+    .aboutme h4{
+      margin-top: 20%;
+    }
+  
+    .myproject{
+      padding-left: 40px;
+      margin-top: 15%;
+    }
+  
+    app{
+      padding-left: 85px;
+      padding-bottom: 0;
+      margin-top: 10px
+    }
+  
+    .card{
+      padding: 2px;
+      margin: 5px;
+    }
+    .home-text{
+      text-align: right;
+      padding-top: 5px;
+      padding-bottom: 30px;
+    }
+    .name{
+      font-size: 20px;
+    }
+  
+    .hero-photo{
+      padding-left: 0px;
+      align-items: left;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+  .section{
+    padding-left: 0;
+    width: 100%;
+  }
+  
+  .hero{
+    width: 100%;
+  }
+  
+    .pro-img{
+      width: 30%;
+      margin-top: 30%;
+      padding: 0;
+    }
+    frame{
+      background: transparent;
+      float: left;
+      width: 100%;
+      padding: 10px 5px 10px 0px;
+      font-size: 8px;
+      text-align: left;
+    }
+  
+    .aboutme{
+      padding-left: 40px;
+      padding-top: 50%;
+    }
+  
+    .myproject{
+      padding-left: 5px;
+    }
+  
+    app{
+      padding-left: 40px;
+    }
+  
+    .card{
+      padding: 2px;
+      margin: 5px;
+    }
+    .home-text{
+      text-align: center;
+      margin-top: 10px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    .name{
+      font-size: 20px;
+    }
+  
+    .hero-photo{
+      padding-left: 0px;
+      align-items: left;
+    }
+  
+  }
