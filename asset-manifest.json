@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/victor-omuya/static/css/main.36e306b9.css",
+    "main.js": "/victor-omuya/static/js/main.ca78a291.js",
+    "static/media/bgimage.jpg": "/victor-omuya/static/media/bgimage.f8e6eb5281d97bfa296e.jpg",
+    "static/media/vicpic.jpg": "/victor-omuya/static/media/vicpic.665961752cf1ef9a66c1.jpg",
+    "index.html": "/victor-omuya/index.html",
+    "main.36e306b9.css.map": "/victor-omuya/static/css/main.36e306b9.css.map",
+    "main.ca78a291.js.map": "/victor-omuya/static/js/main.ca78a291.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e306b9.css",
+    "static/js/main.ca78a291.js"
+  ]
+}
