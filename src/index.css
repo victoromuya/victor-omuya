@@ -158,8 +158,8 @@ section.dark .hero{
 background-color: black;
 padding: 0px;
 align-items: center;
-width: 20%;
-margin-left: 40%;
+width: 30%;
+margin-left: 35%;
 padding-bottom: 10px;
 }
 
@@ -305,7 +305,9 @@ app{
   flex-wrap: wrap;
   color: black;
   padding-top: 0;
+
 }
+
 
 app.dark{
   background-color:#21222A;
@@ -336,13 +338,12 @@ main{
   padding-bottom: 20%;
 
 }
-
-
 .card {
   background: transparent;
   padding: 2px;
-  width: 200px;
-  height: 300px;
+  width: 210px;
+  height: 230px;
+
   font-size: 14px;
   position: relative;
   margin: 15px;
@@ -363,9 +364,9 @@ main{
   transition: .5s ease;
   backface-visibility: hidden;
   width: 100%;
-  border-radius: 9px;
-  height: 80%;
+  height: 65%;
 
+  border-radius: 9px;
 }
 
 .middle {
@@ -423,6 +424,20 @@ main{
 
 
 @media screen and (max-width: 800px) {
+
+  .hero .rotate{
+    background-color: black;
+    align-items: left;
+    width: 67.5%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    }
+
+    .rotate span{
+      font-size: 10px;
+    }
+
   .section{
     padding-left: 0;
     width: 100%;
@@ -430,12 +445,13 @@ main{
   
   .hero{
     width: 100%;
+    float: left;
   }
-  
     .pro-img{
-      width: 28%;
+      width: 30%;
       margin-top: 10%;
       padding: 0;
+     
     }
     frame{
       background: transparent;
@@ -448,7 +464,7 @@ main{
   
     .aboutme{
       padding-left: 40px;
-      padding-top: 10%;
+      padding-top: 20%;
     }
 
     .aboutme h4{
@@ -463,7 +479,7 @@ main{
     app{
       padding-left: 85px;
       padding-bottom: 0;
-      margin-top: 10px
+      
     }
   
     .card{
@@ -471,12 +487,14 @@ main{
       margin: 5px;
     }
     .home-text{
-      text-align: right;
+      padding-left: 0;
       padding-top: 5px;
       padding-bottom: 30px;
     }
     .name{
       font-size: 20px;
+      padding-left: 35%;
+      
     }
   
     .hero-photo{
@@ -487,6 +505,7 @@ main{
 
 
 @media screen and (max-width: 320px) {
+
   .section{
     padding-left: 0;
     width: 100%;
@@ -494,11 +513,28 @@ main{
   
   .hero{
     width: 100%;
+    height: 20%;
+    text-align: left;
+    float: left;
+    padding: 0px;
+    z-index: 1;
   }
+
+  .hero .rotate{
+    background-color: black;
+    width: 85%;
+    text-align: right;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    }
+
+    .rotate span{
+      font-size: 10px;
+    }
   
     .pro-img{
       width: 30%;
-      margin-top: 30%;
+      margin-top: 32%;
       padding: 0;
     }
     frame{
@@ -528,13 +564,15 @@ main{
       margin: 5px;
     }
     .home-text{
-      text-align: center;
       margin-top: 10px;
       padding-top: 10px;
       padding-bottom: 30px;
+      padding-left: 0px;
     }
+    
     .name{
-      font-size: 20px;
+      font-size: 14px;
+      text-align: center;
     }
   
     .hero-photo{

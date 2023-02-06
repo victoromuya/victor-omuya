@@ -3,8 +3,8 @@ export default [
         id : 1,
         title: "Travel Jornal",
         description: "Built with Reactjs",
-        projectUrl: "https://victoromuya.github.io/funfact",
-        imageUrl: "https://github.com/victoromuya/victoromuya/blob/master/src/imgurl/reactfun.JPG?raw=true",
+        projectUrl: "https://victoromuya.github.io/traveljornal",
+        imageUrl: "https://github.com/victoromuya/traveljornal/blob/master/shot.JPG?raw=true",
         completed: 1
     },
 
@@ -12,8 +12,8 @@ export default [
         id : 2,
         title: "Meme Generator",
         description: "Built with Reactjs",
-        projectUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
+        projectUrl: "https://victoromuya.github.io/meme-generator",
+        imageUrl: "https://github.com/victoromuya/meme-generator/blob/master/shot2.JPG?raw=true",
         completed: 0
     },
 
@@ -21,11 +21,9 @@ export default [
         id : 3,
         title: "Game",
         description: "Built with Reactjs",
-        projectUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas",
+        projectUrl: "https://victoromuya.github.io/dice-game/",
+        imageUrl: "https://github.com/victoromuya/dice-game/blob/master/shot.JPG?raw=true",
         completed: 0
     },
-
-    
 
 ]
