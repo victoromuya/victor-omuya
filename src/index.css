@@ -106,10 +106,12 @@ nav.dark .toggler--slider {
 
 section{
   margin: 0;
+  height: 20%;
+
 }
 section.dark{
   padding: 0px;
-  height: 60%;
+  height: 20%;
   background-color: #21222A;
   color: white;
   padding-bottom: 5px;
@@ -133,7 +135,6 @@ section.dark .hero{
   text-align: left;
   float: left;
   padding: 20px;
-  z-index: 1;
   color: white;
 }
 
@@ -390,10 +391,9 @@ main{
   
   .hero{
     max-width: 100%;
-    height: 10%;
+    height: 30%;
     padding: 0px;
-  
-  }
+   }
 
   .hero .rotate{
     background-color: black;
@@ -407,6 +407,11 @@ main{
       font-size: 10px;
     }
 
+    app{
+      margin-left: 0px;
+      
+    }
+
     .details{
       width: 100%;
       padding-right: 10px;
@@ -415,17 +420,23 @@ main{
     .aboutme{
       padding-left: 5px;
       padding-top: 40%;
-      width: 70%;
-    }
-
-    app.dark .aboutme{
-      padding-top: 40%;
+      width: 90%;
+      margin-left: 20px;
     }
   
     .myproject{
-      
+      margin-left: 25px;
       padding-bottom: 5px;
     }
+
+    .aboutme h4{
+      font-size: 14px
+    }
+
+    .myproject h4{
+      font-size: 14px
+    }
+  
   
     .items{
 
@@ -436,11 +447,7 @@ main{
       max-width: 100%;
       flex-basis: 33.333333%;
     }
-  
-    .card{
-      padding: 2px;
-      margin: 5px;
-    }
+
 
     .home-text{
       margin-top: 10px;
@@ -460,8 +467,14 @@ main{
       width: 150px;
       height: 160px;
       font-size: 10px;
+      padding: 2px;
+      margin: 5px;
     }
 
+    .card-stats{
+      font-size: 12px;
+    
+    }
     
 }
 
@@ -489,35 +502,39 @@ main{
 
     .details{
       width: 100%;
-     
     }
   
     .aboutme{
       padding-left: 5px;
       padding-top: 45%;
-      width: 70%;
+      width: 95%;
+      margin-left: 10px;
+    }
+
+    .aboutme h4{
+      font-size: 14px
+    }
+
+    .myproject h4{
+      font-size: 14px
     }
   
     .myproject{
       padding-left: 5px;
       padding-bottom: 5px;
+      margin-left: 10px;
     }
-  
-    .items{
 
+    .items{
       flex-wrap: wrap;
       flex: 0 0 auto;
       display: flex;
-      padding-left: 50px;
+      padding-left: 10px;
       max-width: 100%;
       flex-basis: 33.333333%;
+      padding-bottom: 20%;
     }
   
-    .card{
-      padding: 2px;
-      margin: 5px;
-    }
-
     .home-text{
       margin-top: 10px;
       padding-top: 10px;
@@ -533,10 +550,19 @@ main{
     }
 
     .card {
-    
-      width: 150px;
-      height: 160px;
+      width: 110px;
+      height: 60px;
       font-size: 10px;
+      padding: 2px;
+      margin: 10px;
+      margin-bottom: 100px;
+      
     }
+
+    .card-stats{
+      font-size: 10px;
+    
+    }
+
   
   }
