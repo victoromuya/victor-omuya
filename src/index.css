@@ -448,7 +448,7 @@ main{
       width: 30%;
       margin-top: 10%;
       padding: 0;
-      height: fit-content;
+      height: max-content;
     }
 
   
