@@ -417,10 +417,7 @@ main{
   border-radius: 2px;
   font-weight: bold;
   font-size: 10px;
-  
 }
-
-
 
 
 @media screen and (max-width: 800px) {
@@ -451,8 +448,10 @@ main{
       width: 30%;
       margin-top: 10%;
       padding: 0;
-     
+      height: fit-content;
     }
+
+  
     frame{
       background: transparent;
       float: left;
@@ -460,6 +459,8 @@ main{
       padding: 10px 10px 10px 0px;
       font-size: 10px;
       text-align: left;
+      
+
     }
   
     .aboutme{
@@ -501,6 +502,7 @@ main{
       padding-left: 0px;
       align-items: left;
     }
+
 }
 
 

@@ -36,7 +36,7 @@ export default function Card(props){
                                 <span>{props.item.title}</span>
                             </div>
                             <p>{props.item.description}</p>
-                            <p><i>designed by: </i> Victor Omuya</p>
+                            <p><i>developed by: </i> Victor Omuya</p>
                     </a>
             
                     

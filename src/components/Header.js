@@ -51,8 +51,8 @@ export default function Header(props){
             <div className='aboutme'>
                 <h4>About Me</h4>
                 <p>My name is Victor Omuya. I am Graduate of Comuputer Science from a Nigerian Higher
-                    Institution and a Softare developer. I have several years of experience building web applications with python.
-                    I also use React for for front end designs. Contact me for full stack, backend or frontend 
+                    Institution and a trained Software Engineer. I have several years of experience building web applications with python,
+                    as well as using react for building responsive frontend. Contact me for full stack, backend or frontend 
                     developement jobs. 
                 </p>
             </div>
