@@ -28,8 +28,23 @@ function App() {
     <div className="App">
       <Navbar darkMode= {darkMode} toggleDarkMode={toggleDarkMode}/>
       <Header darkMode= {darkMode}/>
+
       <app className={darkMode ? "dark" : ""}>
-          {items}
+      <div className='details'>
+          <div className='aboutme'>
+                  <h4>About Me</h4>
+                  <p>My name is Victor Omuya. I am Graduate of Comuputer Science from a Nigerian Higher
+                      Institution and a trained Software Engineer. I have several years of experience building web applications with python,
+                      as well as using react for building responsive frontend. Contact me for full stack, backend or frontend 
+                      developement jobs. 
+                  </p>
+              </div>
+
+          <div className='myproject'><h4>Projects</h4></div>
+      </div>
+          <div className='items'>
+            {items}
+          </div>
       </app>
       <Footer darkMode={darkMode}/>
      </div> 
