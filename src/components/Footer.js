@@ -19,11 +19,11 @@ export default function Footer(props){
             <h5 class="headin5_amrc col_white_amrc pt2">Project List</h5>
 
             <ul class="footer_ul_amrc">
-                <li><a href="#">traveljornal project</a></li>
+                <li><a href="https://victoromuya.github.io/traveljornal">traveljornal project</a></li>
                 <li><a href="#">ecommerce project</a></li>
                 <li><a href="#">cbt project</a></li>
-                <li><a href="#">Game</a></li>
-                <li><a href="#">Meme Generator</a></li>
+                <li><a href="https://victoromuya.github.io/dice-game/">Game</a></li>
+                <li><a href="https://victoromuya.github.io/meme-generator">Meme Generator</a></li>
             </ul>
            
             </div>
