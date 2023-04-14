@@ -30,7 +30,7 @@ export default [
     {
         id : 4,
         title: "Gmail Clone",
-        description: "Built with Reactjs, Redux and Firebase",
+        description: "Built with Reactjs",
         projectUrl: "https://clone-bb7d2.web.app/",
         imageUrl: "https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png",
         completed: 1
