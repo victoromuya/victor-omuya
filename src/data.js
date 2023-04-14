@@ -33,7 +33,7 @@ export default [
         description: "Built with Reactjs, Redux and Firebase",
         projectUrl: "https://clone-bb7d2.web.app/",
         imageUrl: "https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png",
-        completed: 1
+        completed: 0
     },
 
     {
@@ -41,6 +41,24 @@ export default [
         title: "LinkedIn Clone",
         description: "Built with Reactjs, Redux and Firebase",
         projectUrl: "https://linkedin-clone-d1e54.web.app",
+        imageUrl: "https://cdn.iconscout.com/icon/free/png-256/linkedin-47-189764.png?f=avif&w=128",
+        completed: 0
+    },
+
+    {
+        id : 6,
+        title: "Buisiness Website",
+        description: "Built with Django and Postgresql",
+        projectUrl: "https://premierleadstc.fly.dev/",
+        imageUrl: "",
+        completed: 1
+    },
+
+    {
+        id : 6,
+        title: "Orphanage Website",
+        description: "Built with Django and Postgresql",
+        projectUrl: "https://jesusarmy.fly.dev/",
         imageUrl: "https://cdn.iconscout.com/icon/free/png-256/linkedin-47-189764.png?f=avif&w=128",
         completed: 1
     },
