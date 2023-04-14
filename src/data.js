@@ -50,7 +50,7 @@ export default [
         title: "Buisiness Website",
         description: "Built with Django and Postgresql",
         projectUrl: "https://premierleadstc.fly.dev/",
-        imageUrl: "",
+        imageUrl: "https://github.com/victoromuya/victor-omuya/blob/master/src/imgurl/premier2.png?raw=true",
         completed: 1
     },
 
@@ -59,7 +59,7 @@ export default [
         title: "Orphanage Website",
         description: "Built with Django and Postgresql",
         projectUrl: "https://jesusarmy.fly.dev/",
-        imageUrl: "https://cdn.iconscout.com/icon/free/png-256/linkedin-47-189764.png?f=avif&w=128",
+        imageUrl: "https://github.com/victoromuya/victor-omuya/blob/master/src/imgurl/orphanage.JPG?raw=true",
         completed: 1
     },
 
