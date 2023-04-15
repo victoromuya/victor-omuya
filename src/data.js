@@ -5,7 +5,7 @@ export default [
         title: "Travel Jornal",
         description: "Built with Reactjs",
         projectUrl: "https://victoromuya.github.io/traveljornal",
-        imageUrl: "https://github.com/victoromuya/traveljornal/blob/master/shot.JPG?raw=true",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 1
     },
 
@@ -14,7 +14,7 @@ export default [
         title: "Meme Generator",
         description: "Built with Reactjs",
         projectUrl: "https://victoromuya.github.io/meme-generator",
-        imageUrl: "https://github.com/victoromuya/meme-generator/blob/master/shot2.JPG?raw=true",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 0
     },
 
@@ -23,7 +23,7 @@ export default [
         title: "Game",
         description: "Built with Reactjs",
         projectUrl: "https://victoromuya.github.io/dice-game/",
-        imageUrl: "https://github.com/victoromuya/dice-game/blob/master/shot.JPG?raw=true",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 0
     },
 
@@ -32,7 +32,7 @@ export default [
         title: "Gmail Clone",
         description: "Built with Reactjs, Redux and Firebase",
         projectUrl: "https://clone-bb7d2.web.app/",
-        imageUrl: "https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 0
     },
 
@@ -41,7 +41,7 @@ export default [
         title: "LinkedIn Clone",
         description: "Built with Reactjs, Redux and Firebase",
         projectUrl: "https://linkedin-clone-d1e54.web.app",
-        imageUrl: "https://cdn.iconscout.com/icon/free/png-256/linkedin-47-189764.png?f=avif&w=128",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 0
     },
 
@@ -50,7 +50,7 @@ export default [
         title: "Buisiness Website",
         description: "Built with Django and Postgresql",
         projectUrl: "https://premierleadstc.fly.dev/",
-        imageUrl: "https://github.com/victoromuya/victor-omuya/blob/master/src/imgurl/premier2.png?raw=true",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 1
     },
 
@@ -59,7 +59,7 @@ export default [
         title: "Orphanage Website",
         description: "Built with Django and Postgresql",
         projectUrl: "https://jesusarmy.fly.dev/",
-        imageUrl: "https://github.com/victoromuya/victor-omuya/blob/master/src/imgurl/orphanage.JPG?raw=true",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 1
     },
 

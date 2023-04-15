@@ -33,7 +33,7 @@ export default function Card(props){
                                     </div>
 
                             <div className='card-stats'>
-                                <span>{props.item.title}</span>
+                                <span className='title'>{props.item.title}</span>
                             </div>
                             <p>{props.item.description}</p>
                             
