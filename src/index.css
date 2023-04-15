@@ -481,6 +481,18 @@ main{
     
 }
 
+@media screen and (max-width: 375px) {
+  .items{
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    display: flex;
+    padding-left: 10px;
+    max-width: 100%;
+    flex-basis: 33.333333%;
+    padding-bottom: 20%;
+  }
+
+}
 
 @media screen and (max-width: 320px) {
 
