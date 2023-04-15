@@ -353,10 +353,6 @@ main{
   opacity: 1;
 }
 
-.card-stats > .title{
-  color: #fff;
-}
-
 .text {
   background-color: #01130c;
   color: white;
