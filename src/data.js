@@ -49,7 +49,7 @@ export default [
         id : 6,
         title: "Buisiness Website",
         description: "Built with Django and Postgresql",
-        projectUrl: "",
+        projectUrl: "https://premierlead-web.fly.dev/",
         imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 1
     },
