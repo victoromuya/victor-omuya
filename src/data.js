@@ -55,10 +55,19 @@ export default [
     },
 
     {
-        id : 6,
+        id : 7,
         title: "Orphanage Website",
         description: "Built with Django and Postgresql",
         projectUrl: "https://jesusarmy.fly.dev/",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
+        completed: 1
+    },
+
+    {
+        id : 8,
+        title: "Slack Clone",
+        description: "Built with Reactjs, Redux and Firebase",
+        projectUrl: "https://slack-clone-2d97d.web.app",
         imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 1
     },
