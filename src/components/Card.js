@@ -21,7 +21,7 @@ export default function Card(props){
     }
     
     return (
-        <div className='wow fadeInUp' data-wow-delay="0.1s">
+        <div>
             <main className={props.darkMode ? "dark": ""}>
                 <div className="card">
                     <a href={props.item.projectUrl}>

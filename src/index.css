@@ -263,7 +263,7 @@ app{
   display: flex;
   padding-left: 17%;
   max-width: 100%;
-  padding-right: 10%;
+  padding-right: 13%;
   flex-basis: 33.333333%;
 }
 
@@ -305,8 +305,8 @@ main{
 .card {
   background: transparent;
   padding: 2px;
-  width: 210px;
-  height: 190px;
+  width: 220px;
+  height: 200px;
 
   font-size: 14px;
   position: relative;
