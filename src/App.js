@@ -33,9 +33,9 @@ function App() {
       <div className='details'>
           <div className='aboutme'>
                   <h4>About Me</h4>
-                  <p>My name is Victor Omuya. I am Graduate of Comuputer Science from a Nigerian Higher
+                  <p>My name is Victor Omuya. I am a Graduate of Comuputer Science from a Nigerian Higher
                       Institution and a trained Software Engineer. I have several years of experience building web applications with python,
-                      as well as using react for building responsive frontend. Contact me for full stack, backend or frontend 
+                      as well as using react.js for building responsive frontend. Contact me for full-stack, backend and frontend 
                       developement jobs. 
                   </p>
               </div>
