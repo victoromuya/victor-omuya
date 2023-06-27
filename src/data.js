@@ -72,13 +72,13 @@ export default [
         completed: 1
     },
 
-    // {
-    //     id : 9,
-    //     title: "Snapchat clone",
-    //     description: "Built with Reactjs, Redux and Firebase",
-    //     projectUrl: "https://snapchat-clone-45f56.web.app",
-    //     imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
-    //     completed: 0
-    // },
+    {
+        id : 9,
+        title: "Snapchat clone",
+        description: "Built with Reactjs, Redux and Firebase",
+        projectUrl: "https://snapchat-44ab9.web.app",
+        imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
+        completed: 0
+    },
 
 ]
