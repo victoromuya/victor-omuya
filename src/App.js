@@ -32,6 +32,7 @@ function App() {
       <app className={darkMode ? "dark" : ""}>
       <div className='details'>
           <div className='aboutme'>
+            <br />
                   <h4>About Me</h4>
                   <p>My name is Victor Omuya. I am a Graduate of Comuputer Science from a Nigerian Higher
                       Institution and a trained Software Engineer. I have several years of experience building web applications with python,
@@ -44,8 +45,10 @@ function App() {
             <h4>Projects</h4>
           </div>
       </div>
-          <div className='items col-lg-12'>
-            {items}
+          <div className='itemparent'>
+            <div className='items col-lg-12'>
+              {items}
+            </div>
           </div>
       </app>
       <Footer darkMode={darkMode}/>
