@@ -6,7 +6,7 @@ export default function Footer(props){
           <footer className={props.darkMode ? 'dark' : " " }>
             <div class="container bottom_border">
             <div class="row">
-            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+            <div class="col-sm-4 col-md col-sm-4 col-12 col">
             <h5 class="headin5_amrc col_white_amrc pt2">Contact</h5>
           
            
@@ -52,7 +52,7 @@ export default function Footer(props){
 
                 <ul class="social_footer_ul">
                   
-                    <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="http://twitter.com/the_victoromuya"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/victor-omuya-9b6198188/"><i class="fab fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/victoromuya"><i class="fab fa-github"></i></a></li>
                 </ul>

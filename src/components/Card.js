@@ -35,7 +35,7 @@ export default function Card(props){
                             <div className='card-stats'>
                                 <span className='title'>{props.item.title}</span>
                             </div>
-                            <p>{props.item.description}</p>
+                            <p className='desc'>{props.item.description}</p>
                             
                     </a>
             

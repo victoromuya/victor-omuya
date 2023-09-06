@@ -40,9 +40,11 @@ function App() {
                   </p>
               </div>
 
-          <div className='myproject'><h4>Projects</h4></div>
+          <div className='myproject'>
+            <h4>Projects</h4>
+          </div>
       </div>
-          <div className='items'>
+          <div className='items col-lg-12'>
             {items}
           </div>
       </app>
