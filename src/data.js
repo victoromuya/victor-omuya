@@ -2,9 +2,9 @@ export default [
 
     {
         id : 1,
-        title: "Travel Jornal",
+        title: "Get A House",
         description: "Built with Reactjs",
-        projectUrl: "https://victoromuya.github.io/traveljornal",
+        projectUrl: "https://victoromuya.github.io/getAHouse/",
         imageUrl: "https://previews.123rf.com/images/tmricons/tmricons1510/tmricons151000614/45815367-html-code-icon.jpg",
         completed: 1
     },
