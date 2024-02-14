@@ -11,20 +11,17 @@ export default function Header(props){
                             <div>
                                 <h2 className='name'>VICTOR OMUYA</h2>
                                 <h3 className="rotate">
-                                    <span>S</span>
-                                    <span>O</span>
-                                    <span>F</span>
-                                    <span>T</span>
-                                    <span>W</span>
+                                    <span>D</span>
                                     <span>A</span>
-                                    <span>R</span>
-                                    <span>E</span>
+                                    <span>T</span>
+                                    <span>A</span>
                                     <span>-</span>
-                                    <span> E</span>
-                                    <span>N</span><span>G</span><span>I</span><span>N</span>
+                                    <span>S</span>
+                                    <span>C</span>
+                                    <span>I</span>
                                     <span>E</span>
-                                    <span>E</span>
-                                    <span>R</span>
+                                    <span>N</span>
+                                    <span>T</span><span>I</span><span>S</span><span>T</span>
                                 </h3>
                             </div>
                         </div>

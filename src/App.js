@@ -34,10 +34,10 @@ function App() {
           <div className='aboutme'>
             <br />
                   <h4>About Me</h4>
-                  <p>My name is Victor Omuya. I am a Graduate of Comuputer Science from a Nigerian Higher
-                      Institution and a trained Software Engineer. I have several years of experience building web applications with python,
-                      as well as using react.js for building responsive frontend. Contact me for full-stack, backend and frontend 
-                      developement jobs. 
+                  <p>I am Victor Omuya. A Graduate of Comuputer Science from a Nigerian Higher
+                      Institution. I am a trained, certified and practising Data Scientist/Analyst. I have several years of experience in exploring, cleaning, analyzing
+                      mining and visualizing data. I am also skilled in machine learning, Natural Language Processing, Computer Vision and Web Scraping. I am available for 
+                    data science, data analysis and data engineering roles. 
                   </p>
               </div>
 

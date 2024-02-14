@@ -21,7 +21,7 @@ nav {
 }
 
 nav.dark {
-  background-color: #21222A;
+  background-color: #1b1b22;
   color: #FFD700;
 }
 
@@ -30,7 +30,7 @@ nav.dark .nav--logo_text:hover{
 }
 
 .nav--logo_text {
-  
+  font-style: italic;
   margin-right: auto;
   
 }
@@ -112,7 +112,7 @@ section{
 section.dark{
   padding: 0px;
   height: 20%;
-  background-color: #21222A;
+  background-color: #1b1b22;
   color: white;
   padding-bottom: 5px;
   margin: 0;
@@ -124,8 +124,8 @@ section.dark i{
 section.dark .hero{
   display: flex;
   /*background-color:#263238; */
- /*  background-color:#21222A; background-blend-mode: color-burn;*/
-  background-color:#21222A; 
+ /*  background-color:#1b1b22; background-blend-mode: color-burn;*/
+  background-color:#1b1b22; 
   background-image: url('images/bgimage.jpg');
   background-repeat: no-repeat;
   background-size:cover;
@@ -227,7 +227,7 @@ padding-bottom: 10px;
 
 .aboutme{
   text-align: justify;
-  width: 60%;
+  width: 68%;
   padding: 5% 15px 0 15px;
   margin-left: 17%;
   margin-bottom: 0;
@@ -274,14 +274,14 @@ app{
 }
 
 app.dark .itemparent{
-  background-color:#21222A;
+  background-color:#1b1b22;
   display: grid;
   place-content: center;
   padding-bottom: 100px;
 }
 
 app.dark .items{
-  background-color:#21222A;
+  background-color:#1b1b22;
   padding-top: 0;
   height: 100%;
   margin: 0;
@@ -289,7 +289,7 @@ app.dark .items{
 }
 
 app.dark .details{
-  background-color:#21222A;
+  background-color:#1b1b22;
   padding-bottom: 0px;
 }
 
@@ -306,7 +306,7 @@ app.dark p{
 
 main.dark{
   
-  background-color: #21222A;
+  background-color: #1b1b22;
 
   margin: 0;
   padding-bottom: 10%;
@@ -323,9 +323,9 @@ main{
   
   background: transparent;
   padding: 2px;
-  width: 200px;
-  max-height: 200px !important;
-  min-height: 200px !important;
+  width: 210px;
+  max-height: 270px !important;
+  min-height: 270px !important;
 
   font-size: 14px;
   position: relative;
